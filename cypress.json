@@ -1,0 +1,23 @@
+{
+    "testFiles": [
+      "./features/**.feature"
+    ],
+    "ignoreTestFiles": [
+      "*.ts",
+      "*.md"
+    ],
+    "chromeWebSecurity": false,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "charts": true,
+      "overwrite": false,
+      "html": false,
+      "json": true,
+      "reportDir": "cypress/reports/mochawesome-reports"
+     },
+    "watchForFileChanges": false,
+    "videoCompression": false,
+    "videoUploadOnPasses": false,
+    "pageLoadTimeout": 60000
+  }
+  
